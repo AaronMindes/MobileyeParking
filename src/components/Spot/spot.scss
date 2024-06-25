@@ -1,0 +1,35 @@
+.spot-container{
+    width: 45px;
+    height: 45px;
+    border: 2px solid black;
+    position: relative;
+    box-shadow: 1px 2px 1px 0.5px black;
+    margin: 20px;
+
+    .occupied{
+        background-color: rgb(230, 13, 13);
+    }
+    .available{
+        background-color: rgb(21, 234, 10);
+    }
+    
+    .spot-details{
+        visibility: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: gray;
+        width: 40px;
+        height: 40px;
+    }
+
+    :hover{
+        .spot-details{
+            visibility: visible;
+        }
+    }
+}

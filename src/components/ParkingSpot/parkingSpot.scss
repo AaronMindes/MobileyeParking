@@ -1,0 +1,10 @@
+.parking-spot-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+    width: 25%;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
